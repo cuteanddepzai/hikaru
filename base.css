@@ -1,0 +1,164 @@
+/* danh mục  */
+.back-menu 
+{
+    background-color: #F2F2F2;
+    padding: 8px 0 8px 7px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+@media (max-width : 739px)
+{
+    
+}
+@media (max-width : 1023px)
+{
+    .back-menu
+    {
+        margin-top: 65px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/* danh mục  */
+
+/* truyện tranh  */
+
+.truyen-tranh .list 
+{
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    background-color: #d80027;
+}
+.truyen-tranh-item-link
+{
+    font-size: 14px;
+    color: #000;
+    padding: 5px 0px 5px 15px;
+    display: block;
+}
+.truyen-tranh-item-link:hover 
+{
+    color: #f3652a;
+}
+.loc-san-pham .loc
+{
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    background-color: #d80027;
+}
+.loc-san-pham h2 
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.loc-san-pham ul 
+{
+    margin-left: 15px;
+}
+.loc-san-pham input 
+{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.loc-san-pham .link-san-pham-muon 
+{
+    font-size: 14px;
+    color: #000;
+    display: flex;
+}
+.loc-san-pham .loc-san-pham-theo-lua-chon 
+{
+    line-height: 1.6;
+}
+.loc-san-pham .GIA 
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    padding-bottom: 10px;
+    color: #000;
+}
+.list-gia li 
+{
+    display: flex;
+    line-height: 1.6;
+    list-style-type: none;
+}
+.list-gia li  p 
+{
+    font-size: 14px;
+}
+
+/* truyện tranh  */
+.parent-row h1 
+{
+    font-size: 18px;
+    font-weight: 500;
+    padding:15px;
+    margin-bottom: 10px;
+}
+.set-content img 
+{
+   max-width: 100%;
+}
+.each-Comic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.each-Comic h4
+{
+    font-size: 15px;
+    padding: 10px;
+}
+.each-Comic p 
+{
+    padding: 0 10px 0;
+}
+.each-Comic p span 
+{
+    font-size: 14px;
+    color: #c83548;
+}
+.each-Comic p del 
+{
+    color: #7d7d7d;
+    font-size: 14px;
+}
+.each-Comic a 
+{
+    border: 2px solid #d7d7d7;
+    padding: 8px 23px;
+    display: inline-block;
+    color: #b0b0b0;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.each-Comic a:hover 
+{
+    color: #f3652a;
+    border-color: #f3652a;
+}
+@media (min-width : 740px) and (max-width : 1023px)
+{
+    .main-menu-list 
+    {
+        width: 100%;
+        padding: 0 5px;
+        max-width: 2000px;
+    }
+    /* .main-header 
+    {
+        width: 100%;
+        padding: 0 5px;
+    } */
+}

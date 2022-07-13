@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HIKARU</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootrap.css">
+    <link rel="stylesheet" href="respomsive.css">
+</head>
+<body>  
+    <div id="main">
+        <!-- thanh nav  -->
+        <div class="header-main">
+            <div class="grid wide">
+                
+                    <div class="row setHeight setPadding">
+                        <div class="icon-on-tablet col m-4 c-3">
+                            <i class="fa-solid fa-bars icon-menu">                              
+                            </i>
+                        </div>
+                        <div class="overMenu">
+                            <div class="header-login">
+                                <div class="user-mobile">
+                                    <img src="https://theme.hstatic.net/1000376556/1000707101/14/user_mobile.png?v=28" alt="" class="header-login-user">
+                                    <div class="login-mobile">
+                                        <p class="login-mobile-list">
+                                            <a href="">Đăng nhập /</a>
+                                            <a href="">Đăng kí</a>
+                                            <i class="fa-solid fa-angle-right icon-angle-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-xmark header-login-icon-close"></i>
+                            </div>
+                            <ul class="overlay-menu-list">
+                                <li class="overlay-menu-item">
+                                    <a href="#" class="overlay-menu-item-link">Trang Chủ</a>
+                                </li>
+                                <li class="overlay-menu-item">
+                                    <a href="index1.html" class="overlay-menu-item-link">
+                                        Truyện Tranh
+                                        <i class="fa-solid fa-plus icon-plus"></i>
+                                    </a>
+                                </li>
+                                <li class="overlay-menu-item">
+                                    <a href="" class="overlay-menu-item-link">Light Novel</a>
+                                </li>
+                                <li class="overlay-menu-item">
+                                    <a href="" class="overlay-menu-item-link">Trinh Thám-Kinh Dị</a>
+                                </li>
+                                <li class="overlay-menu-item">
+                                    <a href="" class="overlay-menu-item-link">
+                                        Hướng Dẫn Thanh Toán
+                                        <i class="fa-solid fa-plus icon-plus1"></i>
+                                    </a>
+                                </li>
+                                <li class="overlay-menu-item">
+                                    <a href="" class="overlay-menu-item-link">Liên Hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-3 m-4 c-6">
+                            <div class="navbar__img">
+                                <img src="https://theme.hstatic.net/1000376556/1000707101/14/logo.png?v=28" alt="" class="navbar__img-web">
+                            </div>
+                        </div>
+
+                        <div class ="menu-user-cart col m-4 c-3">
+                            <i class="fa-solid fa-cart-plus icon-shop-on-tablat"></i>
+                        </div>
+
+                        <div class="col l-6 m-12 c-12">
+                            <div class="navbar__search">
+                                <input type="text" placeholder="Nhập từ khóa tìm kiếm" class="navbar__search-input">
+                                <a href="" class="navbar__search-search">
+                                    <p>Tìm ngay</p>
+                                    <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-0 c-0">
+                            <div class="login">
+                                <div class="row">
+                                    <div class="col l-6">
+                                        <div class="user_login">
+                                            <i class="fa-solid fa-user icon-user"></i>
+                                            <h4>Tài khoản</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col l-6">
+                                        <div class="cart_header">
+                                            <i class="fa-solid fa-cart-plus icon-cart"></i>
+                                            <h4>Giỏ hàng (0)</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="overlay">
+                <div class="overlay-form">
+                    <form action="" class="form">
+                        <header class="overlay-form-content">
+                            <h1>Đăng nhập</h1>
+                            <p>Bạn chưa có tài khoản? Đăng ký</p>
+                        </header>
+                        <div class="overlay-form-input">
+                            <h4>Email:</h4>
+                            <input type="text" class="overlay-form-input1">
+                            <h4>Mật khẩu:</h4>
+                            <input type="text" class="overlay-form-input1">
+                            <p>
+                                Quên mật khẩu? Nhấn vào
+                                <a href="" style="color: #000;" class="link-login">đây</a>
+                            </p>
+                        </div>
+                        <a href="">Đăng nhập</a>
+                        <div class="close">
+                            <i class="fa-solid fa-xmark icon-close"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- thanh nav  -->
+
+
+        <!-- thanh menu  -->
+        <div class="menu-wrapper-bc">
+            <div class="menu-wrapper grid wide">
+                <ul class="menu-wrapper-list">
+                    <li class="menu-wrapper-list-item">
+                        <a href="index.html" class="menu-wrapper-list-item-link">
+                            <h1>TRANG CHỦ</h1>
+                        </a>
+                    </li>
+                    <li class="menu-wrapper-list-item">
+                        <a href="index1.html" class="menu-wrapper-list-item-link">
+                            <h1>TRUYỆN TRANH</h1>
+                        </a>
+                        <div class="name1">
+                            <ul class="name1-list">
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Truyện Tranh
+                                    </a>
+                                </li>
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Light Novel
+                                    </a>
+                                </li>
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Tiểu thuyết
+                                    </a>
+                                </li>
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Trinh Thám - Kinh Dị
+                                    </a>
+                                </li>
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Truyện Nguyên Bộ
+                                    </a>
+                                </li>
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Vật Phẩm - Quà Tặng
+                                    </a>
+                                </li>
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Hàng Nhập Khẩu 
+                                    </a>
+                                </li>
+                                <li class="name1-list-item">
+                                    <a href="" class="name1-list-item-link">
+                                        Sách Giảm Giá
+                                    </a>    
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-wrapper-list-item">
+                        <a href="" class="menu-wrapper-list-item-link">
+                            <h1>TRINH THÁM - KINH DỊ</h1>
+                        </a>
+                    </li>
+                    <li class="menu-wrapper-list-item">
+                        <a href="" class="menu-wrapper-list-item-link">
+                            <h1>LIGHT NOVEL</h1>
+                        </a>
+                    </li>
+                    <li class="menu-wrapper-list-item">
+                        <a href="" class="menu-wrapper-list-item-link">
+                            <h1>HƯỚNG DẪN THANH TOÁN</h1>
+                        </a>
+                        <div class="name2">
+                            <ul class="name2-list">
+                                <li class="name2-list-item">
+                                    <a href="" class="name2-list-item-link">
+                                    Đặt Hàng
+                                </a>
+                                </li>
+                                <li class="name2-list-item">
+                                    <a href="" class="name2-list-item-link">
+                                        Thanh Toán
+                                </a>
+                                </li>
+                                <li class="name2-list-item">
+                                    <a href="" class="name2-list-item-link">
+                                        Phương Thức Vận Chuyển
+                                </a>
+                                </li>
+                                <li class="name2-list-item">
+                                    <a href="" class="name2-list-item-link">
+                                        Chính Sách Đổi Trả
+                                </a>
+                                </li>
+                                <li class="name2-list-item">
+                                    <a href="" class="name2-list-item-link">
+                                        Phí Giao Hàng
+                                </a>
+                                </li>
+                                <li class="name2-list-item">
+                                    <a href="" class="name2-list-item-link">
+                                        Chính Sách Giao Hàng
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-wrapper-list-item">
+                        <a href="" class="menu-wrapper-list-item-link">
+                            <h1>LIÊN HỆ</h1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-show grid wide">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="./slideshow/psl_1_r1_slide_img_1.webp" style="width:100%">
+                      <div class="text">
+                        <a href="">Đặt Trước </a>
+                      </div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="./slideshow/psl_1_r1_slide_img_2.webp" style="width:100%">
+                      <div class="text">
+                        <a href="">Đặt Trước </a>
+                    </div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="./slideshow/psl_1_r1_slide_img_3.webp" style="width:100%">
+                      <div class="text">
+                        <a href="">Đặt Trước </a>
+                    </div>
+                    </div>
+                    </div>
+                    <br>      
+                    <div style="text-align:center ; display : none">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                </div>
+                <div class="container-status">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="tg-status1 tg-same">
+                                <div class="tg-statuscontent">
+                                    <i class="fa-solid fa-book icon-book icon-same"></i>
+                                    <h4>Những Bản Manga Mới Nhất 1000+</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="tg-status2 tg-same">
+                                <div class="tg-parallax">
+                                    <i class="fa-solid fa-user-large icon-user-2 icon-same"></i>
+                                    <h4>Khách Hàng Thân Thiết 5000+</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="tg-status3 tg-same">
+                                <div class="tg-bghappyusers">
+                                    <i class="fa-solid fa-heart icon-heart icon-same"></i>
+                                    <h4>Thế Giới của Light Novel 100+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slide -->
+        <!-- danh sách mới thêm  -->
+        <div class="list">
+            <div class="start grid wide">
+                <div class="featured-sldier-title">
+                    <h2 class="list-title">
+                        SẮP PHÁT HÀNH
+                    </h2>
+                    <i>Cùng tìm hiểu sách mới nhất của chúng tôi</i>
+                </div>
+                <div class ="book-row">
+                    <div class="book-row-content">
+                        <div class="row wrapp-book">
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> Komi - Nữ Thần Sợ Giao Tiếp Tập 11</a>
+                                            <p><span>317,000₫</span><del>400,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/combo_bl_7fa353fb7139415dabe70b59c4515f56_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href="">Anh Em Phi Hành Da</a>
+                                            <p><span>400,000₫</span><del>430,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/one_piece_-_tap_99_-_ban_bia_gap_e94c77d1b1fa4c9497edf8a34fd3a7d4_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href="">Chúa Tể Ấu Dâm Phiên Bản Xạo Ke</a>
+                                            <p><span>120,000₫</span><del>225,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/one_piece_-_tap_99_-_ban_bia_gap_e94c77d1b1fa4c9497edf8a34fd3a7d4_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> TOKUDA Và Những Người Bạn</a>
+                                            <p><span>385,000₫</span><del>400,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/ae29_a1ff29044ac049c58d6003dbb290a357_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> Cuộc Chiến Giành Áo Lót</a>
+                                            <p><span>500,000₫</span><del>550,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/vp8_ee3f9d7cef0c4cd197dc40e3cf298c37_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> Cuộc Chiến Giành Áo Lót</a>
+                                            <p><span>500,000₫</span><del>550,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/vp8_ee3f9d7cef0c4cd197dc40e3cf298c37_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> Cuộc Chiến Giành Áo Lót</a>
+                                            <p><span>500,000₫</span><del>550,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/vp8_ee3f9d7cef0c4cd197dc40e3cf298c37_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="start grid wide">
+                <div class="featured-sldier-title">
+                    <h2 class="list-title">
+                        MỚI NHẤT TRONG TUẦN
+                    </h2>
+                    <i>Danh sách được cập nhật tự động trong 24h</i>
+                </div>
+                <div class ="book-row">
+                    <div class="book-row-content">
+                        <div class="row wrapp-book">
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href="">Anh Hàng Xóm Sợ Ma Và Cô Chủ Nhà Dâm Dục</a>
+                                            <p><span>317,000₫</span><del>400,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/komi_nu_than_so_giao_tiep_-_tap_11_6dd38baf30fa4d91881a362b6199b440_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href="">Cô Sinh Viên Khốn Nạn</a>
+                                            <p><span>400,000₫</span><del>430,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/nhan_vat_ha_cap_tomozaki_-_tap_3_-_bia_2b835fdb57d744d891083798d0a4bbaf_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href="">Chúa Tể Ấu Dâm Phiên Bản Xạo Ke</a>
+                                            <p><span>120,000₫</span><del>225,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/hello_komang_-tap_5_844cd00abff7465fa2e1f81c9dcbd4d4_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> TOKUDA Và Những Người Bạn</a>
+                                            <p><span>385,000₫</span><del>400,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/ae29_a1ff29044ac049c58d6003dbb290a357_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> Cuộc Chiến Giành Áo Lót</a>
+                                            <p><span>500,000₫</span><del>550,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/vp8_ee3f9d7cef0c4cd197dc40e3cf298c37_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> Đang Quét Sân Thì Bị Tên Hàng Xóm Xàm Sỡ</a>
+                                            <p><span>500,000₫</span><del>550,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/nobu7_190e4c784469431fb3748945cef7d3de_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-6 c-12">
+                                <div class="book-same">
+                                    <div class="book-same2">
+                                        <div class="child-book1">
+                                            <a href=""> Cuộc Chiến Giành Áo Lót</a>
+                                            <p><span>500,000₫</span><del>550,000₫</del></p>
+                                        </div>
+                                        <img src="https://product.hstatic.net/1000376556/product/vp8_ee3f9d7cef0c4cd197dc40e3cf298c37_medium.jpg" alt="">
+                                        <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- danh sách mới thêm  -->
+
+
+        <!-- danh sách khuyến mại  -->
+        <div class ="featured">
+            <div class="collection grid wide">
+                <div class="row row-flex">
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-solid fa-user-check icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href="" class="manga">MANGA</a>
+                                <p>3636</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-solid fa-book-open icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href=""class="LightNovel" >Light Novel</a>
+                                <p>761</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-solid fa-book-open icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href="" class="VanHOc">VĂN HỌC</a>
+                                <p>300</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-solid fa-book-open icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href="" class="VATPHAM">VẬT PHẨM </a>
+                                <p>49</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- danh sách khuyến mại  -->
+
+        <div class="start grid wide">
+            <div class="featured-sldier-title">
+                <h2 class="list-title">
+                    SẢN PHẨM KHUYẾN MÃI
+                </h2>
+                <i>Nhanh tay chọn lựa những sản phẩm đang giảm giá</i>
+            </div>
+            <div class ="book-row">
+                <div class="book-row-content">
+                    <div class="row wrapp-book">
+                        <div class="col l-2-4 m-6 c-12">
+                            <div class="book-same">
+                                <div class="book-same2">
+                                    <div class="child-book1">
+                                        <a href="">Anh Hàng Xóm Sợ Ma Và Cô Chủ Nhà Dâm Dục</a>
+                                        <p><span>317,000₫</span><del>400,000₫</del></p>
+                                    </div>
+                                    <img src="https://product.hstatic.net/1000376556/product/komi_nu_than_so_giao_tiep_-_tap_11_6dd38baf30fa4d91881a362b6199b440_medium.jpg" alt="">
+                                    <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-6 c-12">
+                            <div class="book-same">
+                                <div class="book-same2">
+                                    <div class="child-book1">
+                                        <a href="">Cô Sinh Viên Khốn Nạn</a>
+                                        <p><span>400,000₫</span><del>430,000₫</del></p>
+                                    </div>
+                                    <img src="https://product.hstatic.net/1000376556/product/nhan_vat_ha_cap_tomozaki_-_tap_3_-_bia_2b835fdb57d744d891083798d0a4bbaf_medium.jpg" alt="">
+                                    <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-6 c-12">
+                            <div class="book-same">
+                                <div class="book-same2">
+                                    <div class="child-book1">
+                                        <a href="">Chúa Tể Ấu Dâm Phiên Bản Xạo Ke</a>
+                                        <p><span>120,000₫</span><del>225,000₫</del></p>
+                                    </div>
+                                    <img src="https://product.hstatic.net/1000376556/product/hello_komang_-tap_5_844cd00abff7465fa2e1f81c9dcbd4d4_medium.jpg" alt="">
+                                    <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-6 c-12">
+                            <div class="book-same">
+                                <div class="book-same2">
+                                    <div class="child-book1">
+                                        <a href=""> TOKUDA Và Những Người Bạn</a>
+                                        <p><span>385,000₫</span><del>400,000₫</del></p>
+                                    </div>
+                                    <img src="https://product.hstatic.net/1000376556/product/ae29_a1ff29044ac049c58d6003dbb290a357_medium.jpg" alt="">
+                                    <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-6 c-12">
+                            <div class="book-same">
+                                <div class="book-same2">
+                                    <div class="child-book1">
+                                        <a href=""> Cuộc Chiến Giành Áo Lót</a>
+                                        <p><span>500,000₫</span><del>550,000₫</del></p>
+                                    </div>
+                                    <img src="https://product.hstatic.net/1000376556/product/vp8_ee3f9d7cef0c4cd197dc40e3cf298c37_medium.jpg" alt="">
+                                    <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-6 c-12">
+                            <div class="book-same">
+                                <div class="book-same2">
+                                    <div class="child-book1">
+                                        <a href=""> Đang Quét Sân Thì Bị Tên Hàng Xóm Xàm Sỡ</a>
+                                        <p><span>500,000₫</span><del>550,000₫</del></p>
+                                    </div>
+                                    <img src="https://product.hstatic.net/1000376556/product/nobu7_190e4c784469431fb3748945cef7d3de_medium.jpg" alt="">
+                                    <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-6 c-12">
+                            <div class="book-same">
+                                <div class="book-same2">
+                                    <div class="child-book1">
+                                        <a href=""> Cuộc Chiến Giành Áo Lót</a>
+                                        <p><span>500,000₫</span><del>550,000₫</del></p>
+                                    </div>
+                                    <img src="https://product.hstatic.net/1000376556/product/vp8_ee3f9d7cef0c4cd197dc40e3cf298c37_medium.jpg" alt="">
+                                    <a href="" class="a1">THÊM VÀO GIỎ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class ="featured2">
+            <div class="collection grid wide">
+                <div class="row row-flex">
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-solid fa-rocket icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href="" class="manga">MANGA</a>
+                                <p>3636</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-solid fa-tag icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href=""class="LightNovel" >Light Novel</a>
+                                <p>761</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-brands fa-envira icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href="" class="VanHOc">VĂN HỌC</a>
+                                <p>300</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-3 c-12">
+                        <div class="collection-content">
+                            <i class="fa-solid fa-heart icon-same-collection"></i>
+                            <div class="collection-content-div">
+                                <a href="" class="VATPHAM">VẬT PHẨM </a>
+                                <p>49</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer"> 
+            <div class="end grid wide">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="end1">
+                            <img src="https://theme.hstatic.net/1000376556/1000707101/14/logo-footer.png?v=28" alt="">
+                            <h4>WEBSITE THUỘC QUYỀN</h4>
+                            <p>HIKARU SHOP</p>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="end2">
+                            <h4>
+                                LIÊN HỆ
+                            </h4>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot icon-location"></i>
+                                    <p>O4E Trường Sơn, Phường 15, Quận 10, Hồ Chí Minh</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>090 998 28 73</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>hikaru.com.vn@gmail.com</p>
+                                </li>
+                            
+                            </ul>
+                            <h4>
+                                ĐĂNG KÝ NHẬN TIN
+                            </h4>
+                            <div class="end-input">
+                                <input type="text" placeholder="Vui lòng nhập địa chỉ email">
+                                <a href="">Gửi</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-2 m-6 c-12">
+                        <div class="end3">
+                            <h4>THÔNG TIN HỖ TRỢ</h4>
+                            <ul>
+                                <li><a href="">> Yêu cầu hỗ trợ</a></li>
+                                <li><a href="">> Điều khoản sử dụng</a></li>
+                                <li><a href="">> Chính sách bảo mật</a></li>
+                                <li><a href="">> Phương Thức Vận Chuyển</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="end4">
+                            <h4>FANPAGE</h4>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            Copyright © 2018 Designed by Woizi | Power by Haravan
+        </div>
+        <!-- <div class="heart-pos">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d)"><circle cx="40" cy="40" r="30" fill="white"></circle></g><g clip-path="url(#haraloyalty_3)"><rect x="21" y="21" width="38" height="38" rx="19" fill="#EC5569"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M30.7084 23.4231C27.1859 26.872 25 31.6808 25 37C25 47.4934 33.5066 56 44 56C47.3751 56 50.5446 55.12 53.2916 53.5769C49.8652 56.9318 45.1741 59 40 59C29.5066 59 21 50.4934 21 40C21 32.8817 24.9145 26.6776 30.7084 23.4231Z" fill="#E63950"></path><path d="M49.406 32.6457C47.2806 30.4514 43.8348 30.4514 41.7093 32.6457L40.5088 33.8852C40.2225 34.1807 39.7583 34.1807 39.4721 33.8852L38.2907 32.6655C36.1653 30.4712 32.7195 30.4712 30.594 32.6655C28.4687 34.8598 28.4687 38.4174 30.594 40.6117L39.4728 49.7784C39.759 50.0739 40.2232 50.0739 40.5095 49.7784L49.4059 40.5919C51.5314 38.3976 51.5313 34.84 49.406 32.6457Z" fill="#FFF5F5"></path>
+                <path d="M33.4409 40.6117C31.3155 38.4175 31.3155 34.8599 33.4409 32.6655C34.138 31.9458 34.9777 31.4636 35.8657 31.2162C34.0463 30.7089 32.0221 31.191 30.594 32.6655C28.4687 34.8598 28.4687 38.4174 30.594 40.6117L39.4728 49.7784C39.759 50.0739 40.2232 50.0739 40.5095 49.7784L41.4145 48.8439L33.4409 40.6117Z" fill="#DCE6EB"></path>
+                </g>
+                <defs>
+                <filter id="filter0_d" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+                <feOffset></feOffset>
+                <feGaussianBlur stdDeviation="5"></feGaussianBlur>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.129412 0 0 0 0 0.129412 0 0 0 0.1 0"></feColorMatrix>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+                </filter>
+                <clipPath id="clip100">
+                <rect width="38" height="38" fill="white" transform="translate(21 21)"></rect>
+                </clipPath>
+                </defs>
+            </svg>
+        </div> -->
+    </div>
+    <script src="./all.js"></script>
+</body>
+</html>
+
